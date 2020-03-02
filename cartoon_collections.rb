@@ -17,7 +17,7 @@ def find_the_cheese(strings)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   index = strings.index do |word|
-    cheese_types.each { |cheese| word == cheese}
+    cheese_types.each { |cheese| word == cheese }
   end
   if index
     return strings[index]
